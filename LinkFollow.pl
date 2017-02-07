@@ -38,5 +38,10 @@ sub get_filter
             $self->proxy()->response( $res ); 
                     }    
                  ); 
-               }
+	      }
+# set example sites  
+__DATA__
+example.com|example.org
+example.org|example.org
+
  
